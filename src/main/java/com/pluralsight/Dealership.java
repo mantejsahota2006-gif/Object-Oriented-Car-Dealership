@@ -60,6 +60,16 @@ public class Dealership {
         }
         return matches;
     }
+    public List<Vehicle> getVehiclesByMakeModel(String make, String model) {
+        List<Vehicle> matches = new ArrayList<>();
+        for (Vehicle v : inventory) {
+            if (v.getMake().equalsIgnoreCase(make)
+                    && v.getModel().equalsIgnoreCase(model)) {
+                matches.add(v);
+            }
+        }
+        return matches;
+    }
 
 
 }
