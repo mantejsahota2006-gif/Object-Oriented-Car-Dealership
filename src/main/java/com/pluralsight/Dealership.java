@@ -70,6 +70,15 @@ public class Dealership {
         }
         return matches;
     }
+    public List<Vehicle> getVehiclesByYear(int min, int max) {
+        List<Vehicle> matches = new ArrayList<>();
+        for (Vehicle v : inventory) {
+            if (v.getYear() >= min && v.getYear() <= max) {
+                matches.add(v);
+            }
+        }
+        return matches;
+    }
 
 
 }
