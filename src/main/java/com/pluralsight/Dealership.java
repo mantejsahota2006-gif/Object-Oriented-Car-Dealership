@@ -79,6 +79,15 @@ public class Dealership {
         }
         return matches;
     }
+    public List<Vehicle> getVehiclesByColor(String color) {
+        List<Vehicle> matches = new ArrayList<>();
+        for (Vehicle v : inventory) {
+            if (v.getColor().equalsIgnoreCase(color)) {
+                matches.add(v);
+            }
+        }
+        return matches;
+    }
 
 
 }
