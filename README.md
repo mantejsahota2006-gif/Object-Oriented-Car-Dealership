@@ -2,7 +2,7 @@
 
 ## Description of the Project
 
-I made a car dealership application in Java. It lets users view and manage car inventory easily. I added features to add, remove, and search for cars. I also made the program interactive with a user-friendly interface. This project helped me practice object-oriented programming and file handling.
+I made a car dealership application in Java. It lets users view and manage car inventory easily. I added features to add, remove, and search for cars. I also made the program interactive with a user-friendly interface. This project helped me practice object oriented programming and file handling.
 
 ## User Stories
 
